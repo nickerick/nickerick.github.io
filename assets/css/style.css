@@ -1,9 +1,9 @@
 :root {
-    --bg-clr: #23283e;
+    --bg-clr: #202020;
     --bg-clr-alt: #2a2f4c;
-    --pg-clr: #bdbddd;
-    --txt-clr: #cdcdff;
-    --primary-color: #90a0d9;
+    --pg-clr: #ffffffd2;
+    --txt-clr: #707070;
+    --primary-color: #FFDF6C;
 }
 
 * {
@@ -15,6 +15,7 @@ html {
     scroll-behavior: smooth;
     background-color: var(--bg-clr);
     font-family: 'Poppins', sans-serif;
+    width: 100%;
 }
 
 
@@ -24,10 +25,14 @@ html {
     display: flex;
     justify-content: center;
     height: 70px;
+    width: 100%;
     align-items: center;
     position: sticky;
     top: 0;
     margin-right: 2rem;
+    opacity: 1;
+    background-color: var(--bg-clr);
+    border-bottom: 1px solid #181818f3;
 }
 
 .navbar ul {
@@ -42,11 +47,11 @@ html {
 .navbar ul li a {
     padding: 5px 17px;
     text-decoration: none;
-    color: var(--txt-clr);
+    color: var(--pg-clr);
 }
 
 .navbar ul li a:hover {
-    border-bottom: 3px solid var(--pg-clr);
+    border-bottom: 3px solid var(--txt-clr);
     color: var(--primary-color);
     overflow: hidden;
 }
@@ -67,10 +72,11 @@ html {
 #home p {
     font-size: 1rem;
     max-width: 700px;
-    color: var(--pg-clr);
+    color: var(--txt-clr);
     line-height: 23px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -81,6 +87,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    color: var(--pg-clr);
 }
 
 .uil {
@@ -97,5 +104,23 @@ h2 {
 a {
     padding: 5px 17px;
     text-decoration: none;
+    color: var(--pg-clr);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+.title {
+    color: var(--primary-color);
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
     color: var(--txt-clr);
+    top: 0;
 }
