@@ -1,9 +1,10 @@
 :root {
-    --bg-clr: #202020;
+    --bg-clr: #1d1d1d;
     --bg-clr-alt: #2a2f4c;
-    --pg-clr: #ffffffd2;
-    --txt-clr: #707070;
-    --primary-color: #FFDF6C;
+    --pg-clr: #dfdfdfd2;
+    --txt-clr: #878787;
+    --txt-clr2: #9c9c9c;
+    --primary-color: #FEC303;
 }
 
 * {
@@ -68,26 +69,29 @@ html {
     align-items: center;
     color: var(--txt-clr);
     top: 0;
+    margin-top: 30px;
 }
 
 #home p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width: 700px;
-    color: var(--txt-clr);
+    color: var(--txt-clr2);
     line-height: 23px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    margin-top: 50px;
 }
 
 h1 {
-    margin-top: 80px;
-    font-size: 4.2rem;
+    margin-top: 180px;
+    font-size: 5.35rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 2rem;
+    margin-top: 8px;
+    font-size: 2.7rem;
     color: var(--pg-clr);
 }
 
@@ -114,7 +118,7 @@ a:hover {
 
 .title {
     color: var(--primary-color);
-    font-size: 2.4rem;
+    font-size: 2.7rem;
     margin-top: 0px;
 }
 
@@ -127,7 +131,7 @@ a:hover {
     color: var(--txt-clr);
     top: 0;
     z-index: -1;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .columns {
@@ -147,7 +151,7 @@ a:hover {
     margin-right: 20px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 0 20px #181818f3;
+    box-shadow: 0 0 20px #0b0b0bfc;
     transition: top ease 0.35s;
     position: relative;
 }
@@ -193,6 +197,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     height: 250px;
+    padding-left: 400px;
+    padding-right: 400px;
     justify-content: center;
     align-items: center;
     color: var(--txt-clr);
@@ -236,13 +242,12 @@ a:hover {
     justify-content: center;
     align-items: center;
     color: var(--txt-clr);
-    top: 0;
     z-index: -1;
     margin-top: -100px;
 }
 
-#proj3 {
-    margin-top: 25px;
+#exp1 {
+    margin-top: 50px;
     width: 500px;
-    height: 180px;
+    height: 220px;
 }
