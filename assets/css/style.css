@@ -50,6 +50,7 @@ html {
     padding: 5px 17px;
     text-decoration: none;
     color: var(--pg-clr);
+    transition: border-bottom ease 0.1s;
 }
 
 .navbar ul li a:hover {
@@ -110,6 +111,7 @@ a {
     padding: 5px 17px;
     text-decoration: none;
     color: var(--pg-clr);
+    transition: color ease 0.5s;
 }
 
 a:hover {
@@ -125,7 +127,7 @@ a:hover {
 #projects {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    /* height: 500px; */
     justify-content: center;
     align-items: center;
     color: var(--txt-clr);
@@ -135,7 +137,10 @@ a:hover {
 }
 
 .columns {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
     grid-template-columns: auto auto;
     padding-left: 0px;
     margin-top: 40px;
@@ -149,6 +154,7 @@ a:hover {
     border-radius: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 30px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 20px #0b0b0bfc;
@@ -243,7 +249,7 @@ a:hover {
     align-items: center;
     color: var(--txt-clr);
     z-index: -1;
-    margin-top: -100px;
+    margin-top: 100px;
 }
 
 #exp1 {
