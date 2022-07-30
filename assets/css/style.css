@@ -267,7 +267,7 @@ a:hover {
     100% { color: magenta; }
 }
 
-#test1 {
+#easter {
     background-color: var(--bg-clr);
     box-shadow: 0 0 20px #181818f3;
     color: #FEC303;
