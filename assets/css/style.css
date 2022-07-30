@@ -257,3 +257,15 @@ a:hover {
     width: 500px;
     height: 220px;
 }
+
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+#test1 {
+    background-color: var(--bg-clr);
+    box-shadow: 0 0 20px #181818f3;
+    color: #FEC303;
+}
