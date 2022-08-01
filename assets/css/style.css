@@ -71,6 +71,7 @@ html {
     color: var(--txt-clr);
     top: 0;
     margin-top: 30px;
+    text-align: center;
 }
 
 #home-section p {
@@ -80,7 +81,6 @@ html {
     line-height: 23px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
     margin-top: 50px;
 }
 
