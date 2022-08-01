@@ -33,7 +33,7 @@ html {
     margin-right: 2rem;
     opacity: 1;
     background-color: var(--bg-clr);
-    border-bottom: 1px solid #181818f3;
+    box-shadow: 0 0 12px #0b0b0bfc;
     z-index: 1;
 }
 
