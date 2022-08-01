@@ -254,8 +254,20 @@ a:hover {
 
 #exp1 {
     margin-top: 50px;
-    width: 500px;
-    height: 220px;
+    width: 850px;
+    height: 250px;
+}
+
+#exp1 h1 {
+    margin-top: 0px;
+    font-size: 2em;
+    color: var(--pg-clr);
+}
+
+#exp1 h2 {
+    font-size: 1.4em;
+    color: var(--primary-color);
+    margin-top: 0.2em;
 }
 
 @keyframes color-change {
