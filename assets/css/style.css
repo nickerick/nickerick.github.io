@@ -318,3 +318,9 @@ html::-webkit-scrollbar-thumb:hover
 {
 	background-color: #616161;
 }
+
+@media screen and (max-width: 480px) {
+    .navbar {
+      display: none;
+    }
+  }
