@@ -258,13 +258,13 @@ a:hover {
     height: 250px;
 }
 
-#exp1 h1 {
+#exp1 h2 {
     margin-top: 0px;
     font-size: 2em;
     color: var(--pg-clr);
 }
 
-#exp1 h2 {
+#exp1 h3 {
     font-size: 1.4em;
     color: var(--primary-color);
     margin-top: 0.2em;
