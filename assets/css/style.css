@@ -244,7 +244,7 @@ a:hover {
 #experience {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 850px;
     justify-content: center;
     align-items: center;
     color: var(--txt-clr);
@@ -252,22 +252,27 @@ a:hover {
     margin-top: 0px;
 }
 
-#exp1 {
+
+.experienceBox {
     margin-top: 50px;
     width: 850px;
-    height: 250px;
+    height: 225px;
 }
 
-#exp1 h2 {
+.experienceBox h2 {
     margin-top: 0px;
     font-size: 2em;
     color: var(--pg-clr);
 }
 
-#exp1 h3 {
+.experienceBox h3 {
     font-size: 1.4em;
     color: var(--primary-color);
     margin-top: 0.2em;
+}
+
+#exp2 {
+    height: 205px;
 }
 
 @keyframes color-change {
