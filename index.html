@@ -1,137 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <meta name="author" content="Nicholas Erickson" />
-    <meta name="description" content="Hi, I'm Nicholas Erickson. I'm an ambitious Software Engineering student finding my way through the technology maze. Come check out my experiences and projects!" />
-    <meta name=”keywords” content=”nicholas erickson, nick erickson, portfolio” />
+    <meta
+      name="description"
+      content="Hi, I'm Nicholas Erickson. I'm an ambitious Software Engineering student finding my way through the technology maze. Come check out my experiences and projects!"
+    />
+    <meta
+      name="”keywords”"
+      content="”nicholas"
+      erickson,
+      nick
+      erickson,
+      portfolio”
+    />
 
     <!--UNICONS-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
     <!--CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!--Tab Icon-->
-    <link rel="icon" href="nicon.ico">
+    <link rel="icon" href="nicon.ico" />
 
     <title>Nicholas Erickson | Aspiring Software Engineer</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBTMQZ2"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KBTMQZ2"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <nav class="navbar">
-        <ul>
-            <li>
-                <a href="#home">
-                    home
-                </a>
-            </li>
-            <li>
-                <a href="#projects">
-                    projects
-                </a>
-            </li>
-            <li>
-                <a href="#experience">
-                    experience
-                </a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="#home"> home </a>
+        </li>
+        <li>
+          <a href="#projects"> projects </a>
+        </li>
+        <li>
+          <a href="#experience"> experience </a>
+        </li>
+      </ul>
     </nav>
 
     <section id="home-section">
-        <a id="home"></a>
-        <div class="center">
-            <h1 class="heading">I am <span id="titleSpan" style="color: #FEC303">Nicholas Erickson</span>.</h1>
-        </div>
-        <h2>An Aspiring Software Engineer</h2>
-        <p> Hello! My name's Nick and I'm a senior year Software Engineering student at Iowa State University. I spend much of my freetime playing with different technologies, exploring their capabilities, and coming up with ideas. Sometimes, these explorations lead to awesome experiences. Check them out below!</p>
-        <div class="icons">
-            <a href="https://github.com/nickerick" target="_blank" title="My Github">
-                <i class="uil uil-github"></i>
-            </a>
-            <a href="assets/pdf/Nicholas_Erickson_Resume.pdf" target="_blank" title="My Resume">
-                <i class="uil uil-file-info-alt"></i>
-            </a>
-            <a href="mailto:nickerickson373@gmail.com" target="_blank" title="My Email">
-                <i class="uil uil-envelope"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/nickerick" target="_blank" title="My LinkedIn">
-                <i class="uil uil-linkedin"></i>
-            </a>
-        </div>
+      <a id="home"></a>
+      <div class="center">
+        <h1 class="heading">
+          I am
+          <span id="titleSpan" style="color: #fec303">Nicholas Erickson</span>.
+        </h1>
+      </div>
+      <h2>An Aspiring Software Engineer</h2>
+      <p>
+        Hello! My name's Nick and I'm a senior year Software Engineering student
+        at Iowa State University. I spend much of my freetime playing with
+        different technologies, exploring their capabilities, and coming up with
+        ideas. Sometimes, these explorations lead to awesome experiences. Check
+        them out below!
+      </p>
+      <div class="icons">
+        <a
+          href="https://github.com/nickerick"
+          target="_blank"
+          title="My Github"
+        >
+          <i class="uil uil-github"></i>
+        </a>
+        <a
+          href="assets/pdf/Nicholas_Erickson_Resume.pdf"
+          target="_blank"
+          title="My Resume"
+        >
+          <i class="uil uil-file-info-alt"></i>
+        </a>
+        <a
+          href="mailto:nickerickson373@gmail.com"
+          target="_blank"
+          title="My Email"
+        >
+          <i class="uil uil-envelope"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nickerick"
+          target="_blank"
+          title="My LinkedIn"
+        >
+          <i class="uil uil-linkedin"></i>
+        </a>
+      </div>
     </section>
-    
-    
+
     <section id="projects-section">
-        <h1 class="title">PROJECTS</h1>
-        <a id="projects"></a>
-        <div class="columns">
-            <div class="box">
-                <h2>Mazify</h2>
-                <p>Real life maze solver. Draw a maze on paper. Scan in the empty maze under a live ESP-32 camera and GUI will output the solved maze virtually in real time.</p>
-                <p id="proj2">Python, TKinter, C, ESP-32</p>
-                <div id="proj2i">
-                    <a href="https://github.com/nickerick/MazeSolver" target="_blank">
-                        <i class="uil uil-github"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="box">
-                <h2>Vocal Galactic</h2>
-                <p>Space shooter game built in Java with Swing graphics. Created voice activated power ups by utilizing AssemblyAI API. Winning project at Hack K-State 2021.</p>
-                <p id="proj1">Java, Node.js, Swing</p>
-                <div id="proj1i">
-                    <a href="https://github.com/nickerick/Vocal-Galactic" target="_blank">
-                        <i class="uil uil-github"></i>
-                    </a>
-                    <a href="https://devpost.com/software/vocal-galactic?ref_content=user-portfolio&ref_feature=in_progress" target="_blank">
-                        <i class="uil uil-external-link-alt"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="box">
-                <h2>To-Do List App</h2>
-                <p>To-Do List Angular web app. Built out a REST API backend that connects to MongoDB. Created user profiles functionality along with cookie authentication.</p>
-                <p id="proj2">MEAN Stack</p>
-                <div id="proj2i">
-                    <a href="https://github.com/nickerick/TicTacToeAI" target="_blank">
-                        <i class="uil uil-github"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="box">
-                <h2>Synonisms</h2>
-                <p>Synomize your words and make them funner! Web app that takes in your input and converts certain words into their more interesting counterparts. Utilizes WordsAPI.</p>
-                <p id="proj2">Java</p>
-                <div id="proj2i">
-                    <a href="https://github.com/nickerick/TicTacToeAI" target="_blank">
-                        <i class="uil uil-github"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="box">
-                <h2>TicTacToe AI</h2>
-                <p>TicTacToe Engine that allows you play to against humans or an AI. AI has an easy, medium, and hard difficulty. Hard difficulty implemented with the minimax algorithm.</p>
-                <p id="proj2">Java</p>
-                <div id="proj2i">
-                    <a href="https://github.com/nickerick/TicTacToeAI" target="_blank">
-                        <i class="uil uil-github"></i>
-                    </a>
-                </div>
-            </div>
-            
+      <h1 class="title">PROJECTS</h1>
+      <a id="projects"></a>
+      <div class="columns">
+        <div class="box">
+          <h2>Mazify</h2>
+          <p>
+            Real life maze solver. Draw a maze on paper. Scan in the empty maze
+            under a live ESP-32 camera and GUI will output the solved maze
+            virtually in real time.
+          </p>
+          <p id="proj2">Python, TKinter, C, ESP-32</p>
+          <div id="proj2i">
+            <a href="https://github.com/nickerick/MazeSolver" target="_blank">
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
         </div>
+        <div class="box">
+          <h2>Vocal Galactic</h2>
+          <p>
+            Space shooter game built in Java with Swing graphics. Created voice
+            activated power ups by utilizing AssemblyAI API. Winning project at
+            Hack K-State 2021.
+          </p>
+          <p id="proj1">Java, Node.js, Swing</p>
+          <div id="proj1i">
+            <a
+              href="https://github.com/nickerick/Vocal-Galactic"
+              target="_blank"
+            >
+              <i class="uil uil-github"></i>
+            </a>
+            <a
+              href="https://devpost.com/software/vocal-galactic?ref_content=user-portfolio&ref_feature=in_progress"
+              target="_blank"
+            >
+              <i class="uil uil-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <h2>To-Do List App</h2>
+          <p>
+            To-Do List Angular web app. Built out a REST API backend that
+            connects to MongoDB. Created user profiles functionality along with
+            cookie authentication.
+          </p>
+          <p id="proj2">MEAN Stack</p>
+          <div id="proj2i">
+            <a href="https://github.com/nickerick/TicTacToeAI" target="_blank">
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <h2>Synonisms</h2>
+          <p>
+            Synomize your words and make them funner! Web app that takes in your
+            input and converts certain words into their more interesting
+            counterparts. Utilizes WordsAPI.
+          </p>
+          <p id="proj2">Java</p>
+          <div id="proj2i">
+            <a href="https://github.com/nickerick/TicTacToeAI" target="_blank">
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <h2>TicTacToe AI</h2>
+          <p>
+            TicTacToe Engine that allows you play to against humans or an AI. AI
+            has an easy, medium, and hard difficulty. Hard difficulty
+            implemented with the minimax algorithm.
+          </p>
+          <p id="proj2">Java</p>
+          <div id="proj2i">
+            <a href="https://github.com/nickerick/TicTacToeAI" target="_blank">
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-    
+
     <!-- <section id="skills">
         <h1 class="title">SKILLS</h1>
         <ul>
@@ -147,42 +206,46 @@
             <li class="btn">C</li>
         </ul>
     </section> -->
-    
+
     <section id="experience">
-        <h1 class="title">EXPERIENCE</h1>
+      <h1 class="title">EXPERIENCE</h1>
 
-        <div class="box experienceBox">
-            <h2>Software Engineer Intern</h2>
-            <h3 id="expheader">Workiva</h3>
-            <p>
-                I currently am interning at Workiva. I work on a team of fulltime engineers and am assigned tickets as such. 
-                Working in a microservice architecture, I maintain 3 main Spring services and a React frontend. I've gained 
-                immense experience in API design and architecture. I've been introduced to web app authentication and security. 
-                Few tickets required researching the browser and the DOM. I've been exposed to complex problems that required 
-                inner knowledge of the platforms web apps are built on. Overall, my experience here has been a deep dive into the core 
-                full stack development concepts.
-            </p>
-        </div>
+      <div class="box experienceBox">
+        <h2>Software Engineer Intern</h2>
+        <h3 id="expheader">Workiva</h3>
+        <p>
+          I currently am interning at Workiva. I work on a team of fulltime
+          engineers and am assigned tickets as such. Working in a microservice
+          architecture, I maintain 3 main Spring services and a React frontend.
+          I've gained immense experience in API design and architecture. I've
+          been introduced to web app authentication and security. Few tickets
+          required researching the browser and the DOM. I've been exposed to
+          complex problems that required inner knowledge of the platforms web
+          apps are built on. Overall, my experience here has been a deep dive
+          into the core full stack development concepts.
+        </p>
+      </div>
 
-        <div class="box experienceBox" id="exp2">
-            <h2>Software Engineer Intern</h2>
-            <h3 id="expheader">TMC Transportation</h3>
-            <p>
-                This was my first internship where I really learned full stack development. 
-                I collaborated on a team of 3 interns to create a security tracking web app using the .NET MVC tech stack. 
-                I developed 8 AWS Lambda functions to automate security metric data gathering from various sources. I got 
-                my hands dirty with CI/CD and built our entire pipeline in Azure DevOps including Terraform to automate the 
-                Lambda creations. The last of my work involved migrating existing .NET web app frontends to Angular.
-            </p>
-        </div>
-
+      <div class="box experienceBox" id="exp2">
+        <h2>Software Engineer Intern</h2>
+        <h3 id="expheader">TMC Transportation</h3>
+        <p>
+          This was my first internship where I really learned full stack
+          development. I collaborated on a team of 3 interns to create a
+          security tracking web app using the .NET MVC tech stack. I developed 8
+          AWS Lambda functions to automate security metric data gathering from
+          various sources. I got my hands dirty with CI/CD and built our entire
+          pipeline in Azure DevOps including Terraform to automate the Lambda
+          creations. The last of my work involved migrating existing .NET web
+          app frontends to Angular.
+        </p>
+      </div>
     </section>
-    
+
     <section>
-        <button id="easter">boogie?</button>
+      <button id="easter">boogie?</button>
     </section>
-    
-    <script src="assets/js/main.js"></script>
-</body>
 
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
